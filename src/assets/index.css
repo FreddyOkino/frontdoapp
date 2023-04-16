@@ -1,0 +1,126 @@
+#app{
+ margin-top: 60px;
+ margin-left: 60px;
+ margin-right: 60px;  
+ 
+}
+body{
+    background-color: #f5f5f5;
+}
+input{
+    height: 40px;
+    border: solid 1px #2c3e50;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+button{
+    height: 40px;
+    background-color:#2c3e50;
+    border-radius: 5px;
+    padding: 0px 30px; 
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.form-login{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding:40px 60px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-login input{
+    width: 100%;
+    margin-bottom:20px ;
+}
+.form-login button{
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%;
+}
+.alerta-app{
+    background-color: #e0e0e0;
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 80%;
+    left: 10%;
+    position: absolute;
+    z-index: 10;
+    justify-content: space-between;
+    top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.alerta-app button{
+    background-color: transparent;
+}
+
+.alerta-app.erro {
+    background-color: rgb(255,58,58);
+   color: white;
+   font-size: 18pt;
+}
+.alerta-app.info{
+    background-color: rgb(119, 119, 226);
+}
+/*MARGIN*/
+.mt-0{
+    margin-top: 0px;
+}
+.mt-1{
+    margin-top: 4px;
+}
+.mt-2{
+    margin-top: 8px;
+}
+.mt-3{
+    margin-top: 12px;
+}
+.mt-4{
+    margin-top: 16px;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.width{
+    width: 100%;
+}
+.alerta-app.sucesso{
+    background-color: rgb(105, 211, 105);
+    color: #292929;
+}
+
+select{
+    width: 250px;
+    height: 70%;
+    padding: 10px;
+    border-radius: 5px;
+}
